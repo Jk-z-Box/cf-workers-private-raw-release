@@ -1,0 +1,22 @@
+name = "cf-workers-private-raw-release"
+main = "src/worker.js"
+compatibility_date = "2026-09-04"
+keep_vars = true
+
+# Recommended secrets:
+# wrangler secret put GH_TOKEN
+# wrangler secret put TOKEN
+#
+# Optional vars:
+# GH_NAME = "your-github-name"
+# GH_REPO = "your-private-repo"
+# GH_BRANCH = "main"
+# GH_RELEASE_ASSET = "app.zip"
+# GH_RELEASE_PATH = "dl"
+# GH_RELEASE_TAG = "v1.2.3"
+# GH_HOME_PATH = "releases/latest/download/app.zip"
+# STRICT_MODE = "true"
+# TOKEN_PATH = "123456@private,abcdef@admin"
+# URL302 = "https://example.com"
+# URL = "https://example.com"
+# ERROR = "无法获取文件，检查路径或TOKEN是否正确。"
